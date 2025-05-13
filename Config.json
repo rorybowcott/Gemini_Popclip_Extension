@@ -1,0 +1,24 @@
+{
+  "name": "Gemini AI",
+  "title": "Gemini AI",
+  "identifier": "at.rory.GeminiAI",
+  "description": "Send selected text to Gemini AI for processing",
+  "icon": "Gemini.png",
+  "javascript file": "GeminiAIScript.js",
+  "entitlements": ["network"],
+  "options": [
+    {
+      "identifier": "apiKey",
+      "label": "Gemini API Key",
+      "type": "string",
+      "description": "Your Gemini API key from Google AI Studio"
+    },
+    {
+      "identifier": "presetPrompt",
+      "label": "Predefined Prompt",
+      "type": "string",
+      "description": "Optional text to prepend to the selected text (e.g. 'Summarise this:')",
+      "default value": ""
+    }
+  ]
+}
